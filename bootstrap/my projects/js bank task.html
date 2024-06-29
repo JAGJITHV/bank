@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bank</title>
+</head>
+<link rel="stylesheet" href="bank.css">
+ 
+<body>
+    <div class="container">
+        <h1 id="bankcolor">BANK ACCOUNT</h1>
+        <div class="box1">
+      <h4> Deposit Amount : </h4>
+            <input type="number" id="depo" value="">
+            <button id="deposit" onclick="deposit()" >Deposit</button>
+      
+
+        </div>
+       <div class="box2">
+        <h4> Widrow Amount : </h4>
+        <input type="number" id="widr"  value="" >
+        <button id="widrow" onclick="widrow()" >Widrow</button>
+       
+       </div>
+       
+        <br>
+       <div class="box3">
+        <button id="Balance" class="btn" onclick="Balance()">Check Balance</button>
+       </div>
+
+       <div>
+        
+        <h1 id="bankBalance"></h1>
+       </div>
+    </div>
+
+   
+   
+
+    <script src="bank.js"></script>
+</body>
+</html>
